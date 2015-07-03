@@ -1,0 +1,15 @@
+body {
+  background: #fff;
+}
+
+.search.empty .search-field {
+  background: #f3f3f3;
+}
+
+.search .search-field:focus {
+  background: #efedef;
+}
+
+.search.empty .search-field:focus {
+  background: #efedef;
+}
