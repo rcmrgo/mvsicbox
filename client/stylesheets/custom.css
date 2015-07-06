@@ -2,6 +2,10 @@ body {
   background: #fff;
 }
 
+.header {
+  border-bottom: 1px solid #eee;
+}
+
 .search.empty .search-field {
   background: #f3f3f3;
 }
