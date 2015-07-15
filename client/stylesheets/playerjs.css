@@ -1,0 +1,85 @@
+
+.music-player {
+  margin: 10px 0;
+  padding: 10px 5px;
+  background-color: #f4482d; 
+}
+.music-player-section {
+  display: inline-block;
+}
+.play-pause-control {
+  width: 5%;
+}
+.progress-control {
+  width: 80%;
+}
+.volume-control {
+  width: 10%;
+}
+  .controls .columns {
+    padding: 0; }
+  .controls .play {
+    display: block;
+    color: #EBE54D;
+    text-align: center; }
+    .controls .play .fa-play {
+      display: none; }
+    .controls .play .fa-pause {
+      display: block; }
+    .controls .play.paused .fa-play {
+      display: block; }
+    .controls .play.paused .fa-pause {
+      display: none; }
+  .controls a {
+    color: #EBE54D; }
+  .controls .progress {
+    border: none;
+    padding: 2px;
+    background: #fff;
+    height: 15px;
+    margin: 0; }
+    .controls .progress .meter {
+      background: #EBE54D;
+      width: 0%; }
+  .controls .mute {
+    color: #EBE54D;
+    float: left;
+    margin-left: 5px;
+    width: 15px; }
+    .controls .mute .fa-volume-off {
+      display: none; }
+    .controls .mute .fa-volume-up {
+      display: block; }
+    .controls .mute.muted {
+      color: #fff; }
+      .controls .mute.muted .fa-volume-off {
+        display: block; }
+      .controls .mute.muted .fa-volume-up {
+        display: none; }
+  .controls .volume {
+    float: left;
+    height: 15px;
+    margin-left: 5px; }
+    .controls .volume span {
+      background: #fff;
+      height: 15px;
+      width: 3px;
+      margin-right: 2px;
+      display: block;
+      float: left; }
+      .controls .volume span.active, .controls .volume span.set {
+        background: #EBE54D; }
+      .controls .volume span.inactive {
+        background: #fff; }
+  .controls .loop {
+    color: #fff;
+    margin-left: 5px;
+    float: left; }
+    .controls .loop.looped {
+      color: #EBE54D; }
+  .controls .next, .controls .previous {
+    margin-left: 5px; }
+    .controls .next.disable, .controls .previous.disable {
+      color: #fff; }
+
+
