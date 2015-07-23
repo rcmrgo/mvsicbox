@@ -17,3 +17,7 @@ body {
 .search.empty .search-field:focus {
   background: #efedef;
 }
+
+.callout {
+	background-color: black;
+}

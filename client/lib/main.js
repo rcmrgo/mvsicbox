@@ -27,27 +27,5 @@
 
     isReady = true;
   };
-
-  // We need to wait for all the players to be ready before we go.
-  onReady = function(){
-    count++;
-    if (count === 4){
-      start();
-    }
-  };
-  
-  $(document).on('ready', function(){
-    console.log('musicjs');
-      // grab the iframes and create players from them.
-      $('.post iframe').each(function(i, e){
-        var player = new playerjs.Player(e);
-        players.push(player);
-        player.on('ready', function(){
-          player.unmute();
-          //onReady();
-        });
-      });
-      start();
-  });
 })(jQuery, document, window);
 

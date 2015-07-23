@@ -40,5 +40,6 @@ Template.posts_list.onRendered(function () {
         //onReady();
       });
     });
+  start();
   console.log('list rendered');
 });
