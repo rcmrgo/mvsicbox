@@ -32,6 +32,9 @@ Template.posts_list.helpers({
 
 Template.posts_list.onRendered(function () {
   //this.findAll('.post iframe');
+  players = [],
+    count = 0,
+    isReady = false;
   $('.post iframe').each(function(i, e){
       var player = new playerjs.Player(e);
       players.push(player);
