@@ -40,3 +40,4 @@ telescope:update-prompt
 # custom
 meteorhacks:kadira
 meteorhacks:fast-render
+georgediab:slack-notify
