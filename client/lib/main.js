@@ -16,11 +16,11 @@
     });
 
     // Go to a track by clicking on it.
-    $('.post-thumbnail').on('click', function(){
+    $('.post').on('click', function(){
       if (!isReady){
         return false;
       }
-      var index = $('.post-thumbnail').index(this);
+      var index = $('.post').index(this);
       multi.play(index);
       return false;
     });
