@@ -12,15 +12,15 @@
 
     // Set the callout.
     multi.on('active', function(index){
-      $('.post').removeClass('callout').eq(index).addClass('callout');
+      $('.post-content').removeClass('callout').eq(index).addClass('callout');
     });
 
     // Go to a track by clicking on it.
-    $('.post').on('click', function(){
+    $('.post-content').on('click', function(){
       if (!isReady){
         return false;
       }
-      var index = $('.post').index(this);
+      var index = $('.post-content').index(this);
       multi.play(index);
       return false;
     });
