@@ -21,3 +21,7 @@ body {
 .callout {
 	background-color: black;
 }
+
+.post-share {
+    display: block; 
+}
