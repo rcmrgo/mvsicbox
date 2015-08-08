@@ -17,3 +17,11 @@ body {
 .search.empty .search-field:focus {
   background: #efedef;
 }
+
+.callout {
+	background-color: #f9f9f9;
+}
+
+.post-share {
+    display: block; 
+}

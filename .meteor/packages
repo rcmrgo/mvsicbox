@@ -39,5 +39,7 @@ telescope:update-prompt
 
 # custom
 meteorhacks:kadira
+fortawesome:fontawesome
+meteorhacks:zones
 meteorhacks:fast-render
 georgediab:slack-notify

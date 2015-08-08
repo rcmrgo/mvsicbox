@@ -1,0 +1,14 @@
+<template name="custom_posts_list">
+  <div class="posts-wrapper grid grid-module">
+  {{> modules "postsListNew"}}
+    {{> postsListIncoming data=incoming}}
+    <div class="posts list {{postsLayout}}" aria-live="polite">
+      {{#each postsCursor}}
+        {{> before_post_item}}
+        {{> post_item}}
+        {{> after_post_item}}
+      {{/each}}
+    </div>
+    {{> postsLoadMore}}
+  </div>
+</template>
