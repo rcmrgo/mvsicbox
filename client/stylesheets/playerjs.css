@@ -9,13 +9,16 @@
  float: left;
 }
 .play-pause-control {
-  width: 8.33%;
+  width: 5%;
 }
 .progress-control{
-  width: 76.66%;
+  width: 85%;
 }
 .volume-control{
-  width: 15%;
+  width: 10%;
+}
+.music-player a {
+  cursor: pointer;
 }
 .progress .meter{
   background:#f4482d;
