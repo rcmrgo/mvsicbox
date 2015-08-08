@@ -2,84 +2,98 @@
 .music-player {
   margin: 10px 0;
   padding: 10px 5px;
-  background-color: #f4482d; 
+  background-color: #333d47;
+  height: 40px;
 }
 .music-player-section {
-  display: inline-block;
+ float: left;
 }
 .play-pause-control {
-  width: 5%;
+  width: 8.33%;
 }
-.progress-control {
-  width: 80%;
+.progress-control{
+  width: 76.66%;
 }
-.volume-control {
-  width: 10%;
+.volume-control{
+  width: 15%;
 }
-  .controls .columns {
-    padding: 0; }
-  .controls .play {
-    display: block;
-    color: #EBE54D;
-    text-align: center; }
-    .controls .play .fa-play {
-      display: none; }
-    .controls .play .fa-pause {
-      display: block; }
-    .controls .play.paused .fa-play {
-      display: block; }
-    .controls .play.paused .fa-pause {
-      display: none; }
-  .controls a {
-    color: #EBE54D; }
-  .controls .progress {
-    border: none;
-    padding: 2px;
-    background: #fff;
-    height: 15px;
-    margin: 0; }
-    .controls .progress .meter {
-      background: #EBE54D;
-      width: 0%; }
-  .controls .mute {
-    color: #EBE54D;
-    float: left;
-    margin-left: 5px;
-    width: 15px; }
-    .controls .mute .fa-volume-off {
-      display: none; }
-    .controls .mute .fa-volume-up {
-      display: block; }
-    .controls .mute.muted {
-      color: #fff; }
-      .controls .mute.muted .fa-volume-off {
-        display: block; }
-      .controls .mute.muted .fa-volume-up {
-        display: none; }
-  .controls .volume {
-    float: left;
-    height: 15px;
-    margin-left: 5px; }
-    .controls .volume span {
-      background: #fff;
-      height: 15px;
-      width: 3px;
-      margin-right: 2px;
-      display: block;
-      float: left; }
-      .controls .volume span.active, .controls .volume span.set {
-        background: #EBE54D; }
-      .controls .volume span.inactive {
-        background: #fff; }
-  .controls .loop {
-    color: #fff;
-    margin-left: 5px;
-    float: left; }
-    .controls .loop.looped {
-      color: #EBE54D; }
-  .controls .next, .controls .previous {
-    margin-left: 5px; }
-    .controls .next.disable, .controls .previous.disable {
-      color: #fff; }
+.progress .meter{
+  background:#f4482d;
+  height:100%;
+  display:block;
+}
+.progress{
+  background-color:#f6f6f6;
+  height:1.5625rem;
+  border:1px solid #fff;
+  padding:0.125rem;
+  margin-bottom:0.625rem;
+}
+.controls .columns {
+  padding: 0; }
+.controls .play {
+  display: block;
+  color: #f4482d;
+  text-align: center; }
+.controls .play .fa-play {
+  display: none; }
+.controls .play .fa-pause {
+  display: block; }
+.controls .play.paused .fa-play {
+  display: block; }
+.controls .play.paused .fa-pause {
+  display: none; }
+.controls a {
+  color: #f4482d; }
+.controls .progress {
+  border: none;
+  padding: 2px;
+  background: #fff;
+  height: 20px;
+  margin: 0; }
+.controls .progress .meter {
+  background: #f4482d;
+  width: 0%; }
+.controls .mute {
+  color: #f4482d;
+  float: left;
+  margin-left: 5px;
+  width: 15px; }
+.controls .mute .fa-volume-off {
+  display: none; }
+.controls .mute .fa-volume-up {
+  display: block; }
+.controls .mute.muted {
+  color: #fff; }
+.controls .mute.muted .fa-volume-off {
+  display: block; }
+.controls .mute.muted .fa-volume-up {
+  display: none; }
+.controls .volume {
+  float: left;
+  height: 20px;
+  margin-left: 5px; }
+.controls .volume span {
+  background: #fff;
+  height: 20px;
+  width: 3px;
+  margin-right: 2px;
+  display: block;
+  float: left; }
+.controls .volume span.active, .controls .volume span.set {
+  background: #f4482d; }
+.controls .volume span.inactive {
+  background: #fff; }
+.controls .loop {
+  color: #fff;
+  margin-left: 5px;
+  float: left; }
+.controls .loop.looped {
+  color: #f4482d; }
+.controls .next, .controls .previous {
+  margin-left: 5px; }
+.controls .next.disable, .controls .previous.disable {
+  color: #fff; }
+
 
 

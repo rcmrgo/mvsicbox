@@ -12,7 +12,7 @@
 
     // Set the callout.
     multi.on('active', function(index){
-      $('.post-content').removeClass('callout').eq(index).addClass('callout');
+      $('.post').removeClass('callout').eq(index).addClass('callout');
     });
 
     // Go to a track by clicking on it.
