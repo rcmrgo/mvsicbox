@@ -122,6 +122,7 @@ telescope:comments@0.22.2
 telescope:core@0.22.2
 telescope:daily@0.22.2
 telescope:datetimepicker@0.22.2
+telescope:debug@0.22.2
 telescope:email@0.22.2
 telescope:embedly@0.22.2
 telescope:events@0.22.2
